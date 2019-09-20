@@ -7,3 +7,4 @@ def func01(n):
 if __name__ == '__main__':
     n = 110
     func01(n)
+    print('')
