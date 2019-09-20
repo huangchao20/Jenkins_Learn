@@ -9,11 +9,11 @@ class FileEventHandler(FileSystemEventHandler):
     def __init__(self):
         FileSystemEventHandler.__init__(self)
 
-    # def on_moved(self, event):
-    #     if event.is_directory:
-    #         print("directory moved from {0} to {1}".format(event.src_path, event.dest_path))
-    #     else:
-    #         print("file moved from {0} to {1}".format(event.src_path, event.dest_path))
+    def on_moved(self, event):
+        if event.is_directory:
+            print("directory moved from {0} to {1}".format(event.src_path, event.dest_path))
+        else:
+            print("file moved from {0} to {1}".format(event.src_path, event.dest_path))
 
     def on_created(self, event):
         if event.is_directory:
@@ -21,14 +21,14 @@ class FileEventHandler(FileSystemEventHandler):
         else:
             print("file created:{0}".format(event.src_path))
 
-    # def on_deleted(self, event):
-    #     if event.is_directory:
-    #         print("directory deleted:{0}".format(event.src_path))
-    #     else:
-    #         print("file deleted:{0}".format(event.src_path))
-	#
+    def on_deleted(self, event):
+        if event.is_directory:
+            print("directory deleted:{0}".format(event.src_path))
+        else:
+            print("file deleted:{0}".format(event.src_path))
+
     def on_modified(self, event):
-        pritn("-----------------------Step on_modified--------------------------")
+        print("-----------------------Step on_modified--------------------------")
         if event.is_directory:
             print("directory modified:{0}".format(event.src_path))
         else:
