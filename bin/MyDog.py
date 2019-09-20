@@ -28,6 +28,7 @@ class FileEventHandler(FileSystemEventHandler):
     #         print("file deleted:{0}".format(event.src_path))
 	#
     def on_modified(self, event):
+        pritn("-----------------------Step on_modified--------------------------")
         if event.is_directory:
             print("directory modified:{0}".format(event.src_path))
         else:
