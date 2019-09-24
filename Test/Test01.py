@@ -5,6 +5,6 @@ def func01(n):
 		print(end='\n')
 
 if __name__ == '__main__':
-    n = 110
+    n = 9
     func01(n)
     print('')
