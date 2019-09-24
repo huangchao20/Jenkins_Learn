@@ -6,6 +6,8 @@ def joinStr(path):
     global i
     global j
     global t
+    
+    
     if os.path.isdir(path):
         print('这个绝壁是目录')
         j += 1

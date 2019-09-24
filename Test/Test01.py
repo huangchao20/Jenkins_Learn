@@ -9,3 +9,4 @@ if __name__ == '__main__':
     func01(n)
     print('')
 
+
