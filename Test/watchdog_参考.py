@@ -2,7 +2,6 @@ from watchdog.observers import Observer
 from watchdog.events import *
 import time
 
-from DealPackages import DealPack
 
 """
 监测文件夹、文件是否有变化
