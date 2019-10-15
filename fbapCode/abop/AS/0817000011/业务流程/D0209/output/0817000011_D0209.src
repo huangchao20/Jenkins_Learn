@@ -1,0 +1,3061 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<Project>
+    <Version>3.5</Version>
+    <Name>AS</Name>
+    <Desp>批量代理教育类</Desp>
+    <Author/>
+    <CreateDate>2015-07-17 09:34</CreateDate>
+    <ModifyDate>2015-07-17 09:35</ModifyDate>
+    <Segments>
+        <Total>1</Total>
+        <Segment>
+            <Name>0817000011</Name>
+            <Desp>南部一卡通批量代扣</Desp>
+            <PyFunctions>
+                <Total>0</Total>
+            </PyFunctions>
+            <TFDS>
+                <Total>1</Total>
+                <Trade>
+                    <Name>D0209</Name>
+                    <Desp>代扣解圈存</Desp>
+                    <Author/>
+                    <CreateDate>2015-09-23 16:05</CreateDate>
+                    <ModifyDate>2017-09-29 10:50</ModifyDate>
+                    <RefDicts>
+                        <Total>0</Total>
+                    </RefDicts>
+                    <Methods>
+                        <Total>0</Total>
+                    </Methods>
+                    <Regulation>
+                        <Steps>
+                            <Total>4</Total>
+                            <Step>
+                 
+                                <Quote>0</Quote>
+                 
+                                <Id>1</Id>
+                 
+                                <Desp>数据合法校验</Desp>
+                 
+                                <Level>2</Level>
+                 
+                                <Auth/>
+                 
+                                <RefImpl>数据合法校验</RefImpl>
+                 
+                                <True>2</True>
+                 
+                                <False>4</False>
+                 
+                                <TrueWire>2A</TrueWire>
+                 
+                                <FalseWire>3C</FalseWire>
+                 
+                                <ToolTip/>
+                 
+                                <Remarks>0</Remarks>
+                 
+                                <Skip>
+                     
+                                    <Enabled>0</Enabled>
+                     
+                                    <Branch>1</Branch>
+                
+                                </Skip>
+                 
+                                <Template>
+                     
+                                    <Level>BANK</Level>
+                     
+                                    <Group>STEP模板</Group>
+                     
+                                    <Name>主机批次数据合法校验.rul</Name>
+                     
+                                    <isModified>false</isModified>
+                
+                                </Template>
+                 
+                                <Implementation>
+                     
+                                    <Usage>1</Usage>
+                     
+                                    <Nodes>
+                         
+                                        <NodeTotal>7</NodeTotal>
+                         
+                                        <MemoTotal>0</MemoTotal>
+                         
+                                        <Node>
+                             
+                                            <Id>1</Id>
+                             
+                                            <Desp>开始@开始</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>2</Type>
+                             
+                                            <Target>Begin</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>开始组件,内部控制</ToolTip>
+                             
+                                            <Visible>null</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>2</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>86,12</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>2</Id>
+                             
+                                            <Desp>默认逻辑错误委托@默认逻辑错误委托</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>6</Type>
+                             
+                                            <Target>DefaultException</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip>错误委托</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <RET0>6</RET0>
+                                 
+                                                <RET1>3</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>62,89</xy_location>
+                             
+                                            <xy_size>102,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>3</Id>
+                             
+                                            <Desp>必输字段合法性检查@必输字段合法性检查</Desp>
+                             
+                                            <Sql/>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>B_ABOP_BatchCheck.B_IndispensableFieldCheck</Target>
+                             
+                                            <Level>1</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip>必输字段合法性检查 0-异常 1-正常。</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <IsDebug>0</IsDebug>
+                             
+                                            <Debug>
+                                 
+                                                <Codes>
+                                     
+                                                    <Total>0</Total>
+                                
+                                                </Codes>
+                                 
+                                                <Result>1</Result>
+                                 
+                                                <Return/>
+                                 
+                                                <ReturnList/>
+                            
+                                            </Debug>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__REQ__</Arg>
+                                 
+                                                <Arg>[ ["REQBODY","CustomerID","STRING",20], ["REQBODY","AppType","STRING",20], ["REQBODY","AppID","STRING",20], ["REQBODY","BranchID","STRING",10], ["REQBODY","ChannelID","STRING",10], ["REQBODY","CustBatchID","CHAR",16], ["REQBODY","AgreementID","STRING",20], ["REQBODY","IsBatchClear","CHAR",1], ["REQBODY","RuleModeID","STRING",10], ["REQBODY","PropertyValue","STRING",512], ["REQBODY","SysBatchID","CHAR",16], ["REQBODY","IsUrgent","CHAR",1], ["REQBODY","IsRealTimeDeal","CHAR",1], ["REQBODY","ExcuteStatus","CHAR",2], ["REQBODY","Status","CHAR",1], ["REQBODY","TotalRecords","STRING",10], ["REQBODY","TotalAmount","STRING",17], ["REQBODY","SucRecords","STRING",10], ["REQBODY","SucAmount","STRING",17], ["REQBODY","FreezeStatus","CHAR",1], ["REQBODY","FreezeAmount","STRING",17], ["REQBODY","UnFreezeAmount","STRING",17], ["REQBODY","TransStatus","CHAR",1], ["REQBODY","TransToBankAmount","STRING",17], ["REQBODY","TransToCustAmount","STRING",17], ["REQBODY","BatchFilePath","STRING",128], ["REQBODY","BatchFileName","STRING",128], ["REQBODY","IsCrtRspFile","CHAR",1], ["REQBODY","BatchFileRspPath","STRING",128], ["REQBODY","BatchFileRspName","STRING",128], ["REQBODY","ErrorCode","STRING",6], ["REQBODY","ErrorMsg","STRING",128], ["REQBODY","CapitalRecover","CHAR",1], ["REQBODY","NearOperateDate","CHAR",8], ["REQBODY","NearOperateTime","CHAR",6] ]</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>4</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>112,157</xy_location>
+                             
+                                            <xy_size>114,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>4</Id>
+                             
+                                            <Desp>获取毫秒级系统时间@获取毫秒级系统时间</Desp>
+                             
+                                            <Sql/>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>B_ABOP_Time.B_GetMicrosecondTime</Target>
+                             
+                                            <Level>1</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip>获取毫秒级系统时间</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <IsDebug>0</IsDebug>
+                             
+                                            <Debug>
+                                 
+                                                <Codes>
+                                     
+                                                    <Total>0</Total>
+                                
+                                                </Codes>
+                                 
+                                                <Result>1</Result>
+                                 
+                                                <Return/>
+                                 
+                                                <ReturnList/>
+                            
+                                            </Debug>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__REQ__["CurrentDate"]</Arg>
+                                 
+                                                <Arg>__REQ__["CurrentTime"]</Arg>
+                                 
+                                                <Arg>__REQ__["CurrentMSecond"]</Arg>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>5</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>113,207</xy_location>
+                             
+                                            <xy_size>114,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>5</Id>
+                             
+                                            <Desp>取本机相关标识@取本机相关标识</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>B_ABOP_Commom_Auto.B_GetTheOverallSituationCfg</Target>
+                             
+                                            <Level>1</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip>取得本服务器全局唯一标示 0-失败 1-成功</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <IsDebug>0</IsDebug>
+                             
+                                            <Debug>
+                                 
+                                                <Codes>
+                                     
+                                                    <Total>0</Total>
+                                
+                                                </Codes>
+                                 
+                                                <Result>1</Result>
+                                 
+                                                <Return/>
+                                 
+                                                <ReturnList/>
+                            
+                                            </Debug>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__REQ__["LocalHost_Cfg"]</Arg>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Key/>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>7</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>115,259</xy_location>
+                             
+                                            <xy_size>114,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>6</Id>
+                             
+                                            <Desp>异常结束@异常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>4</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>异常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>39,320</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>7</Id>
+                             
+                                            <Desp>正常结束@正常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>3</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>正常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>147,320</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                    
+                                    </Nodes>
+                     
+                                    <Wires>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>1</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>2</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>0</Condition>
+                             
+                                            <SourceID>2</SourceID>
+                             
+                                            <SourceTerminalName>0</SourceTerminalName>
+                             
+                                            <TargetID>6</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>1</RouterType>
+                             
+                                            <Bendpoints>
+                                 
+                                                <Bendpoint>96,171</Bendpoint>
+                                 
+                                                <Bendpoint>66,171</Bendpoint>
+                            
+                                            </Bendpoints>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>2</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>3</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>3</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>4</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>4</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>5</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>5</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>7</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                    
+                                    </Wires>
+                
+                                </Implementation>
+                 
+                                <Security>
+                     
+                                    <Readonly>8C798ECC6E733214</Readonly>
+                     
+                                    <TokenLevel>99FBD6B18317206C</TokenLevel>
+                
+                                </Security>
+                 
+                                <HasSql>false</HasSql>
+            
+                            </Step>
+                            <Step>
+                 
+                                <Quote>0</Quote>
+                 
+                                <Id>2</Id>
+                 
+                                <Desp>数据状态更新</Desp>
+                 
+                                <Level>2</Level>
+                 
+                                <Auth/>
+                 
+                                <RefImpl>数据状态更新</RefImpl>
+                 
+                                <True>3</True>
+                 
+                                <False>4</False>
+                 
+                                <TrueWire>2A</TrueWire>
+                 
+                                <FalseWire>3C</FalseWire>
+                 
+                                <ToolTip>数据状态更新</ToolTip>
+                 
+                                <Remarks>0</Remarks>
+                 
+                                <Skip>
+                     
+                                    <Enabled>0</Enabled>
+                     
+                                    <Branch>1</Branch>
+                
+                                </Skip>
+                 
+                                <Implementation>
+                     
+                                    <Usage>1</Usage>
+                     
+                                    <Nodes>
+                         
+                                        <NodeTotal>6</NodeTotal>
+                         
+                                        <MemoTotal>0</MemoTotal>
+                         
+                                        <Node>
+                             
+                                            <Id>1</Id>
+                             
+                                            <Desp>开始@开始</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>2</Type>
+                             
+                                            <Target>Begin</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>开始组件,内部控制</ToolTip>
+                             
+                                            <Visible>null</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>6</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>73,31</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>6</Id>
+                             
+                                            <Desp>默认逻辑错误委托@默认逻辑错误委托</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>6</Type>
+                             
+                                            <Target>DefaultException</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip>错误委托</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <RET0>2</RET0>
+                                 
+                                                <RET1>3</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>50,92</xy_location>
+                             
+                                            <xy_size>102,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>3</Id>
+                             
+                                            <Desp>数据更新@数据更新</Desp>
+                             
+                                            <Sql/>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>B_ABOP_DB.B_DBDMLUpd</Target>
+                             
+                                            <Level>1</Level>
+                             
+                                            <Style>3</Style>
+                             
+                                            <ToolTip>更新指定条件指定库表的指定列值,列信息为[["列名",值]]列表,条件语句:[[列名,操作符,值后边的条件关系/None], ...],更新影响的笔数放到list[3]中</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <pin_order>false</pin_order>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <IsDebug>0</IsDebug>
+                             
+                                            <Debug>
+                                 
+                                                <Codes>
+                                     
+                                                    <Total>0</Total>
+                                
+                                                </Codes>
+                                 
+                                                <Result>1</Result>
+                                 
+                                                <Return/>
+                                 
+                                                <ReturnList/>
+                            
+                                            </Debug>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>4</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>"ABOP_SysBatchInfo"</Arg>
+                                 
+                                                <Arg>[  ["CapitalRecover","9"],  ["CapitalRecoverStatus","11"],  ["CapitalErrorCode","000000"],  ["CapitalErrorMsg","圈存状态正常，解圈存交易末进行实际操作。"]]</Arg>
+                                 
+                                                <Arg>[["SysBatchID","=",__REQ__["__BODY__"]["SysBatchID"],None]]</Arg>
+                                 
+                                                <Arg>True</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>4</Total>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>4</Total>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__REQ__["TMP"]</Arg>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Key/>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <RET1>5</RET1>
+                                 
+                                                <RET2>4</RET2>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>128,168</xy_location>
+                             
+                                            <xy_size>100,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>4</Id>
+                             
+                                            <Desp>设置全局错误（内建）@设置全局错误（内建）</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>ACMP_Builtin_SetErrorToGlobal</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>1</Style>
+                             
+                                            <ToolTip/>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>"E"</Arg>
+                                 
+                                                <Arg>"FFFF"</Arg>
+                                 
+                                                <Arg>"更新批次状态出错。指定的系统批次记录不存在"</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>2</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>56,224</xy_location>
+                             
+                                            <xy_size>93,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>2</Id>
+                             
+                                            <Desp>异常结束@异常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>4</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>异常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>26,317</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>5</Id>
+                             
+                                            <Desp>正常结束@正常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>3</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>正常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>162,317</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                    
+                                    </Nodes>
+                     
+                                    <Wires>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>1</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>6</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>0</Condition>
+                             
+                                            <SourceID>6</SourceID>
+                             
+                                            <SourceTerminalName>0</SourceTerminalName>
+                             
+                                            <TargetID>2</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>1</RouterType>
+                             
+                                            <Bendpoints>
+                                 
+                                                <Bendpoint>84,145</Bendpoint>
+                                 
+                                                <Bendpoint>53,145</Bendpoint>
+                            
+                                            </Bendpoints>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>6</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>3</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>1</RouterType>
+                             
+                                            <Bendpoints>
+                                 
+                                                <Bendpoint>118,144</Bendpoint>
+                                 
+                                                <Bendpoint>178,144</Bendpoint>
+                            
+                                            </Bendpoints>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>3</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>5</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>2</Condition>
+                             
+                                            <SourceID>3</SourceID>
+                             
+                                            <SourceTerminalName>2</SourceTerminalName>
+                             
+                                            <TargetID>4</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>4</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>2</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                    
+                                    </Wires>
+                
+                                </Implementation>
+                 
+                                <Security>
+                     
+                                    <Readonly>204921C57D2077CB</Readonly>
+                     
+                                    <TokenLevel>2BC6360428E5CC42</TokenLevel>
+                
+                                </Security>
+                 
+                                <HasSql>false</HasSql>
+            
+                            </Step>
+                            <Step>
+                 
+                                <Quote>0</Quote>
+                 
+                                <Id>3</Id>
+                 
+                                <Desp>批次执行成功</Desp>
+                 
+                                <Level>2</Level>
+                 
+                                <Auth/>
+                 
+                                <RefImpl>批次执行成功</RefImpl>
+                 
+                                <True>0</True>
+                 
+                                <False>0</False>
+                 
+                                <TrueWire/>
+                 
+                                <FalseWire/>
+                 
+                                <ToolTip/>
+                 
+                                <Remarks>0</Remarks>
+                 
+                                <Skip>
+                     
+                                    <Enabled>0</Enabled>
+                     
+                                    <Branch>1</Branch>
+                
+                                </Skip>
+                 
+                                <Template>
+                     
+                                    <Level>PLATFORM</Level>
+                     
+                                    <Group>STEP模板</Group>
+                     
+                                    <Name>批次执行成功.rul</Name>
+                     
+                                    <isModified>false</isModified>
+                
+                                </Template>
+                 
+                                <Implementation>
+                     
+                                    <Usage>1</Usage>
+                     
+                                    <Nodes>
+                         
+                                        <NodeTotal>5</NodeTotal>
+                         
+                                        <MemoTotal>0</MemoTotal>
+                         
+                                        <Node>
+                             
+                                            <Id>1</Id>
+                             
+                                            <Desp>开始@开始</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>2</Type>
+                             
+                                            <Target>Begin</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>开始组件,内部控制</ToolTip>
+                             
+                                            <Visible>null</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>2</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>97,28</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>2</Id>
+                             
+                                            <Desp>默认逻辑错误委托@默认逻辑错误委托</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>6</Type>
+                             
+                                            <Target>DefaultException</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip>错误委托</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <RET0>4</RET0>
+                                 
+                                                <RET1>3</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>75,93</xy_location>
+                             
+                                            <xy_size>102,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>3</Id>
+                             
+                                            <Desp>设置交易执行成功@设置交易执行成功</Desp>
+                             
+                                            <Sql/>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>B_ABOP_Trade.B_TradeSuccess</Target>
+                             
+                                            <Level>1</Level>
+                             
+                                            <Style>1</Style>
+                             
+                                            <ToolTip>交易执行成功</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <IsDebug>0</IsDebug>
+                             
+                                            <Debug>
+                                 
+                                                <Codes>
+                                     
+                                                    <Total>0</Total>
+                                
+                                                </Codes>
+                                 
+                                                <Result>1</Result>
+                                 
+                                                <Return/>
+                                 
+                                                <ReturnList/>
+                            
+                                            </Debug>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__RSP__</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>5</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>137,183</xy_location>
+                             
+                                            <xy_size>102,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>4</Id>
+                             
+                                            <Desp>异常结束@异常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>4</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>异常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>50,276</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>5</Id>
+                             
+                                            <Desp>正常结束@正常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>3</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>正常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>169,278</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                    
+                                    </Nodes>
+                     
+                                    <Wires>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>1</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>2</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>0</Condition>
+                             
+                                            <SourceID>2</SourceID>
+                             
+                                            <SourceTerminalName>0</SourceTerminalName>
+                             
+                                            <TargetID>4</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>2</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>3</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>3</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>5</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                    
+                                    </Wires>
+                
+                                </Implementation>
+                 
+                                <Security>
+                     
+                                    <Readonly>92C0952B9A34DB48</Readonly>
+                     
+                                    <TokenLevel>E8F5303DDEDEC162</TokenLevel>
+                
+                                </Security>
+                 
+                                <HasSql>false</HasSql>
+            
+                            </Step>
+                            <Step>
+                 
+                                <Quote>0</Quote>
+                 
+                                <Id>4</Id>
+                 
+                                <Desp>批次执行失败</Desp>
+                 
+                                <Level>2</Level>
+                 
+                                <Auth/>
+                 
+                                <RefImpl>批次执行失败</RefImpl>
+                 
+                                <True>0</True>
+                 
+                                <False>0</False>
+                 
+                                <TrueWire/>
+                 
+                                <FalseWire/>
+                 
+                                <ToolTip/>
+                 
+                                <Remarks>0</Remarks>
+                 
+                                <Skip>
+                     
+                                    <Enabled>0</Enabled>
+                     
+                                    <Branch>1</Branch>
+                
+                                </Skip>
+                 
+                                <Template>
+                     
+                                    <Level>PLATFORM</Level>
+                     
+                                    <Group>STEP模板</Group>
+                     
+                                    <Name>批次执行失败.rul</Name>
+                     
+                                    <isModified>false</isModified>
+                
+                                </Template>
+                 
+                                <Implementation>
+                     
+                                    <Usage>1</Usage>
+                     
+                                    <Nodes>
+                         
+                                        <NodeTotal>8</NodeTotal>
+                         
+                                        <MemoTotal>0</MemoTotal>
+                         
+                                        <Node>
+                             
+                                            <Id>1</Id>
+                             
+                                            <Desp>开始@开始</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>2</Type>
+                             
+                                            <Target>Begin</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>开始组件,内部控制</ToolTip>
+                             
+                                            <Visible>null</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>2</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>78,13</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>2</Id>
+                             
+                                            <Desp>默认逻辑错误委托@默认逻辑错误委托</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>6</Type>
+                             
+                                            <Target>DefaultException</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip>错误委托</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <RET0>5</RET0>
+                                 
+                                                <RET1>3</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>56,78</xy_location>
+                             
+                                            <xy_size>102,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>3</Id>
+                             
+                                            <Desp>取全局错误到容器（内建）@取全局错误到容器（内建）</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>ACMP_Builtin_GetGlobalErrorToDict</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>1</Style>
+                             
+                                            <ToolTip/>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>4</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__REQ__</Arg>
+                                 
+                                                <Arg>"ErrorType"</Arg>
+                                 
+                                                <Arg>"ErrorCode"</Arg>
+                                 
+                                                <Arg>"ErrorMsg"</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>4</Total>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>4</Total>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>7</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>86,144</xy_location>
+                             
+                                            <xy_size>150,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>7</Id>
+                             
+                                            <Desp>表达式布尔判断（内建）@表达式布尔判断（内建）</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>ACMP_Builtin_BoolFrame</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>2</Style>
+                             
+                                            <ToolTip/>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>len(__REQ__["ErrorMsg"])&gt;127</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>2</Total>
+                                 
+                                                <RET0>4</RET0>
+                                 
+                                                <RET1>8</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>105,199</xy_location>
+                             
+                                            <xy_size>138,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>8</Id>
+                             
+                                            <Desp>给容器赋值（内建）@给容器赋值（内建）</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>ACMP_Builtin_SetValueToContext</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>1</Style>
+                             
+                                            <ToolTip/>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__REQ__</Arg>
+                                 
+                                                <Arg>"ErrorMsg"</Arg>
+                                 
+                                                <Arg>__REQ__["ErrorMsg"][:127]</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>4</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>136,252</xy_location>
+                             
+                                            <xy_size>114,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>4</Id>
+                             
+                                            <Desp>设置交易执行失败@设置交易执行失败</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>11</Type>
+                             
+                                            <Target>B_ABOP_Trade.B_SetTradeFaild</Target>
+                             
+                                            <Level>1</Level>
+                             
+                                            <Style>1</Style>
+                             
+                                            <ToolTip>设置交易执行失败</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <Skip>
+                                 
+                                                <Enabled>0</Enabled>
+                                 
+                                                <Branch>1</Branch>
+                            
+                                            </Skip>
+                             
+                                            <IsDebug>0</IsDebug>
+                             
+                                            <Debug>
+                                 
+                                                <Codes>
+                                     
+                                                    <Total>0</Total>
+                                
+                                                </Codes>
+                                 
+                                                <Result>1</Result>
+                                 
+                                                <Return/>
+                                 
+                                                <ReturnList/>
+                            
+                                            </Debug>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Type>2</Type>
+                                 
+                                                <Arg>__RSP__</Arg>
+                                 
+                                                <Arg>__REQ__["ErrorCode"]</Arg>
+                                 
+                                                <Arg>__REQ__["ErrorMsg"]</Arg>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                                 
+                                                <Level>4</Level>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>3</Total>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                                 
+                                                <Key/>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>1</Total>
+                                 
+                                                <RET1>6</RET1>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>116,324</xy_location>
+                             
+                                            <xy_size>102,47</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>5</Id>
+                             
+                                            <Desp>异常结束@异常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>4</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>异常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>27,416</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                         
+                                        <Node>
+                             
+                                            <Id>6</Id>
+                             
+                                            <Desp>正常结束@正常结束</Desp>
+                             
+                                            <Sql>null</Sql>
+                             
+                                            <Type>3</Type>
+                             
+                                            <Target>END</Target>
+                             
+                                            <Level>0</Level>
+                             
+                                            <Style>0</Style>
+                             
+                                            <ToolTip>正常结束组件,内部控制</ToolTip>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <Collapse>0</Collapse>
+                             
+                                            <InArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgs>
+                             
+                                            <InArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgLevels>
+                             
+                                            <InArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </InArgKeys>
+                             
+                                            <OutArgs>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgs>
+                             
+                                            <OutArgLevels>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgLevels>
+                             
+                                            <OutArgKeys>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </OutArgKeys>
+                             
+                                            <Logic>
+                                 
+                                                <Total>0</Total>
+                            
+                                            </Logic>
+                             
+                                            <xy_location>146,418</xy_location>
+                             
+                                            <xy_size>55,55</xy_size>
+                        
+                                        </Node>
+                    
+                                    </Nodes>
+                     
+                                    <Wires>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>1</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>2</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>0</Condition>
+                             
+                                            <SourceID>2</SourceID>
+                             
+                                            <SourceTerminalName>0</SourceTerminalName>
+                             
+                                            <TargetID>5</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>1</RouterType>
+                             
+                                            <Bendpoints>
+                                 
+                                                <Bendpoint>90,131</Bendpoint>
+                                 
+                                                <Bendpoint>54,131</Bendpoint>
+                            
+                                            </Bendpoints>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>2</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>3</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>3</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>7</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>0</Condition>
+                             
+                                            <SourceID>7</SourceID>
+                             
+                                            <SourceTerminalName>0</SourceTerminalName>
+                             
+                                            <TargetID>4</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>7</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>8</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>8</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>4</TargetID>
+                             
+                                            <TargetTerminalName>A</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                         
+                                        <Wire>
+                             
+                                            <Condition>1</Condition>
+                             
+                                            <SourceID>4</SourceID>
+                             
+                                            <SourceTerminalName>1</SourceTerminalName>
+                             
+                                            <TargetID>6</TargetID>
+                             
+                                            <TargetTerminalName>0</TargetTerminalName>
+                             
+                                            <Visible>1</Visible>
+                             
+                                            <RouterType>0</RouterType>
+                        
+                                        </Wire>
+                    
+                                    </Wires>
+                
+                                </Implementation>
+                 
+                                <Security>
+                     
+                                    <Readonly>92C0952B9A34DB48</Readonly>
+                     
+                                    <TokenLevel>E8F5303DDEDEC162</TokenLevel>
+                
+                                </Security>
+                 
+                                <HasSql>false</HasSql>
+            
+                            </Step>
+                        </Steps>
+                    </Regulation>
+                </Trade>
+            </TFDS>
+        </Segment>
+    </Segments>
+</Project>
