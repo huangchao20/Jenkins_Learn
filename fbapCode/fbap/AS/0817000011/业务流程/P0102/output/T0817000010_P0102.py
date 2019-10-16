@@ -94,6 +94,8 @@ def TP0102_STEP10_NODE3(__REQ__,__RSP__,__SND__,__RCV__):
         ACMP_Builtin_LoggerVar(4, "A2", None);
         _Arg3_ = None;
         ACMP_Builtin_LoggerVar(4, "A3", None);
+        while True:
+            pass
 
         _Result_ = B_Message_B_Mesg_UnPack(_Arg0_,_Arg1_,_Arg2_,_Arg3_);
 

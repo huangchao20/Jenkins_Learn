@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="GBK"?>
 
+
+
+
+
+
 <Project>
     <Version>3.5</Version>
     <Name>AS</Name>
-    <Desp>代理教育类</Desp>
+    <Desp>锟斤拷锟斤拷锟斤拷锟斤拷锟�</Desp>
     <Author/>
     <CreateDate>2015-07-17 09:39</CreateDate>
     <ModifyDate>2015-07-17 09:41</ModifyDate>
@@ -11,7 +16,7 @@
         <Total>1</Total>
         <Segment>
             <Name>0817000011</Name>
-            <Desp>南部校园一卡通</Desp>
+            <Desp>锟较诧拷校园一锟斤拷通</Desp>
             <PyFunctions>
                 <Total>0</Total>
             </PyFunctions>
@@ -19,7 +24,7 @@
                 <Total>1</Total>
                 <Trade>
                     <Name>P0102</Name>
-                    <Desp>校园卡解约</Desp>
+                    <Desp>校园锟斤拷锟斤拷约</Desp>
                     <Author/>
                     <CreateDate>2017-09-25 16:43</CreateDate>
                     <ModifyDate>2017-09-25 16:43</ModifyDate>
@@ -38,13 +43,13 @@
                  
                                 <Id>10</Id>
                  
-                                <Desp>拆渠道请求报文</Desp>
+                                <Desp>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷</Desp>
                  
                                 <Level>2</Level>
                  
                                 <Auth/>
                  
-                                <RefImpl>拆渠道请求报文</RefImpl>
+                                <RefImpl>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷</RefImpl>
                  
                                 <True>11</True>
                  
@@ -70,9 +75,9 @@
                      
                                     <Level>PLATFORM</Level>
                      
-                                    <Group>STEP模板/01、交易入库前处理</Group>
+                                    <Group>STEP模锟斤拷/01锟斤拷锟斤拷锟斤拷锟斤拷锟角帮拷锟斤拷锟�</Group>
                      
-                                    <Name>拆渠道请求报文.rul</Name>
+                                    <Name>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷.rul</Name>
                      
                                     <isModified>false</isModified>
                 
@@ -92,7 +97,7 @@
                              
                                             <Id>1</Id>
                              
-                                            <Desp>开始@开始</Desp>
+                                            <Desp>锟斤拷始@锟斤拷始</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -104,7 +109,7 @@
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>开始组件,内部控制</ToolTip>
+                                            <ToolTip>锟斤拷始锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>null</Visible>
                              
@@ -164,7 +169,7 @@
                              
                                             <Id>2</Id>
                              
-                                            <Desp>默认逻辑错误委托@默认逻辑错误委托</Desp>
+                                            <Desp>默锟斤拷锟竭硷拷锟斤拷锟斤拷委锟斤拷@默锟斤拷锟竭硷拷锟斤拷锟斤拷委锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -176,7 +181,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>错误委托</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷委锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -246,7 +251,7 @@
                              
                                             <Id>3</Id>
                              
-                                            <Desp>报文拆包@报文拆包</Desp>
+                                            <Desp>锟斤拷锟侥诧拷锟紷锟斤拷锟侥诧拷锟�</Desp>
                              
                                             <Sql/>
                              
@@ -258,7 +263,7 @@
                              
                                             <Style>3</Style>
                              
-                                            <ToolTip>根据接口映射表afa_asst_interfacecolmap中配置的信息,对请求容器中的数据完成对应报文的拆包过程.映射列表格式:[["productcode1","msgtypehead"],["productcode2","msgtypebody"]]</ToolTip>
+                                            <ToolTip>锟斤拷锟捷接匡拷映锟斤拷锟絘fa_asst_interfacecolmap锟斤拷锟斤拷锟矫碉拷锟斤拷息,锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟叫碉拷锟斤拷锟斤拷锟斤拷啥锟接︼拷锟斤拷牡牟锟斤拷锟斤拷锟斤拷.映锟斤拷锟叫憋拷锟绞�:[["productcode1","msgtypehead"],["productcode2","msgtypebody"]]</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -372,9 +377,9 @@
                              
                                             <Id>4</Id>
                              
-                                            <Desp>交易初始化@交易初始化</Desp>
+                                            <Desp>锟斤拷锟阶筹拷始锟斤拷@锟斤拷锟阶筹拷始锟斤拷</Desp>
                              
-                                            <Sql>delete from afa_asst_initmsgmap where productcode='PUBLIC' and msgtype='PUBLIC'; insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_PwdCheck', '0', '08', '业务步骤：密码校验', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Bank_RetCode_Success_', '0', '000000', '账务系统成功代码', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Fail', '0', '0', '处理状态：处理失败', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Ing', '0', '3', '处理状态：处理中', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Init', '0', '4', '处理状态：初始', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Succ', '0', '1', '处理状态：处理成功', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Timeout', '0', '2', '处理状态：处理超时', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_BeiChong', '0', '2', '流水类型：被冲流水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_ChongZheng', '0', '1', '流水类型：冲正流水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_Finance', '0', '0', '流水类型：账务流水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_None_Finance', '0', '3', '流水类型：非账务流水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_MBFLAG_Recv_', '0', '2', '来帐标识', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_MBFLAG_Send_', '0', '1', '往帐标识', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_PayFlag_Credit_', '0', '1', '借贷标识,贷记', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_PayFlag_Debit_', '0', '2', '借贷标识,借记', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Plat_RetCode_Success_', '0', '000000', '系统内部成功代码', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'dealcode', '0', '000000', '平台处理成功错误码', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'dealmsg', '0', '交易处理成功', '平台处理成功信息', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'status', '0', 'S', '平台处理状态', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'tradestatus', '0', '1', '处理状态：交易成功', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'tradestep', '0', '1', '交易最终处理步骤', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'applydate', '0', 'workdate', '记账申请日期', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'productcode', '0', '__MC__', '产品代码', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'templatecode', '0', '__MC__', '模板代码', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'transcode', '0', '__TC__', '交易代码', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_QueryAccDtl', '0', '64', '业务步骤：查询账户交易明细', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_NbpayNotice', '0', '16', '业务步骤：落单', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_AccCheck', '0', '36', '业务步骤：账号校验', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Accept', '0', '60', '业务步骤：已收妥', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_Authorized', '0', '03', '业务步骤：已授权', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_BillCheck', '0', '36', '业务步骤：票据校验', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '2', '0', '_BusiStep_BusiCancel', '0', '33', '业务步骤：行外撤销', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_BusiRefuse', '0', '32', '业务步骤：拒绝', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_BusiRush', '0', '34', '业务步骤：已冲正', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '2', '0', '_BusiStep_BusiTransfor', '0', '05', '业务步骤：已转发', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '2', '0', '_BusiStep_BusiWait', '0', '71', '业务步骤：已排队', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_Confirm', '0', '02', '业务步骤：已复核', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_DeductCust', '0', '11', '业务步骤：核心扣帐', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_DeductCustFee', '0', '40', '业务步骤：扣手续费', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_DepositCust', '0', '12', '业务步骤：核心入账', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ExcpAction', '0', '99', '业务步骤：自动异常处理', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_FMSCheck', '0', '10', '业务步骤：头寸校验', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Flush', '0', '15', '业务步骤：冲正', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_FreezeAmt', '0', '18', '业务步骤：圈存资金', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_HandleReady', '0', '53', '业务步骤：已处理', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_HeYa', '0', '51', '业务步骤：核押', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Input', '0', '00', '业务步骤：已录入', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayCancel', '0', '27', '业务步骤：落单撤销', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayDeduct', '0', '20', '业务步骤：落单扣款', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayDeposit', '0', '21', '业务步骤：落单入账', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayHang', '0', '22', '业务步骤：落单挂账', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_NettingNotice', '0', '30', '业务步骤：轧差', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_QueryAccAmt', '0', '61', '业务步骤：查询账户余额', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_RefusePay', '0', '51', '业务步骤：已拒付', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_RespMBFE', '0', '09', '业务步骤：回执', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ReturnCredit', '0', '26', '业务步骤：贷记退汇', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ReturnDebit', '0', '25', '业务步骤：借记退票', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_SendMBFE', '0', '04', '业务步骤：发送', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Settlement', '0', '31', '业务步骤：清算', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Succeed', '0', '50', '业务步骤：已成功', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Suspend', '0', '13', '业务步骤：自动挂账', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_UnfreezeAmt', '0', '19', '业务步骤：解圈存资金', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_WaitAttest', '0', '06', '业务步骤：待认证', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_WaitForHandle', '0', '07', '业务步骤：待处理', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'sectionID', '0', '000001_AFEImitHost', 'AFE模拟主机服务端', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToAfe_CfgFileName', '0', 'afe_comm.conf', 'AFA请求AFE通信配置文件名', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToAfe_FtpType', '0', 'FTP', 'AFE与AFA之间文件传输协议', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToBank_FtpType', '0', 'FTPS', 'AFA与行内文件传输协议', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToEsb_CfgFileName', '0', 'esb_comm.conf', 'AFA请求ESB通信配置文件名', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'DataBaseType', '0', 'ORA', '产品使用的数据库类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfeToAfa_CommType', '0', 'NATP', 'AFE与AFA之间通信模式', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfeToAfa_PackType', '0', 'NATP', 'AFE与AFA之间通信报文类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'EsbToAfa_CommType', '0', 'NATP', 'ESB与AFA之间通信模式', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'EsbToAfa_PackType', '0', 'NATP', 'ESB与AFA之间通信报文类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'EtellerToAfa_PackType', '0', 'NATP', 'ETELLER与AFA之间通信报文类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfAFA_', '0', '000', '渠道代码:支付平台AFA', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfBankCreditHost_', '0', '012', '渠道代码:银行信用卡主机', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfBankDebitHost_', '0', '011', '渠道代码:银行借记卡主机', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfEnterpriseEbank_', '0', '015', '渠道代码:企业网银', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfPersonEbank_', '0', '014', '渠道代码:个人网银', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOf_Teller', '0', '013', '渠道代码:银行柜面', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_HasDot_Flag_', '0', '1', '平台是否金额带小数点：0-不带小数点;1-带小数点', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_PrecisionOfAmout_', '2', '2', '金额小数点精度;平台金额不带小数点时,此配置项无效', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'banksystype', '0', '0', '账务主机类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'tradebusistep', '0', '00', '当前业务步骤：已录入', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_CorpBook', '0', '18', '账号类型：对公(存折)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_DebitCard', '0', '19', '账号类型：借记卡(对私)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_BankBook', '0', '20', '账号类型：对私存折', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_CreditCard', '0', '21', '账号类型：贷记卡(信用卡)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'LenOfBankBrno', '2', '4', '银行网点号长度(int)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ChkAccNo', '0', '74', '业务步骤：账户校验', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_BankBook', '0', '000', '账号类型：存折', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pub_BankBook', '0', '010', '账号类型：存折(对公)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pri_BankBook', '0', '020', '账号类型：存折(对私)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_CreditCard', '0', '100', '账号类型：贷记卡(信用卡)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_DebitCard', '0', '200', '账号类型：借记卡', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pub_DebitCard', '0', '210', '账号类型：借记卡(对公)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pri_DebitCard', '0', '220', '账号类型：借记卡(对私)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Inner_Subject', '0', '300', '账号类型:内部科目', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Inner_AccNo', '0', '400', '账号类型:内部帐', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Cust_AccNo', '0', '500', '账号类型:客户帐', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_EventType_OneAcc_', '0', '1', '事件类型：单笔金融', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_EventType_OneInfo_', '0', '2', '事件类型：单笔信息', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_EventType_More_', '0', '3', '事件类型：批量', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_SignContract', '0', '72', '业务步骤：签约', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_CancelContract', '0', '73', '业务步骤：解约', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'logname', '0', '__LOG__', '日志名称', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'serverip', '0', '__ASYNIP__', '服务端IP', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Receipt', '0', '75', '业务步骤：已回执', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_QueryCustomInfo', '0', '76', '业务步骤：客户信息查询', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Third_PackType', '0', 'NATP', 'afa发送第三方的报文类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Third_CommType', '0', 'natp', 'afa发送第三方的通讯类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Third_CfgFileName', '0', 'afe_cbps_third_comm.conf', 'afa发送第三方的配置文件名', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Host_PackType', '0', 'NATP', 'afa发送主机的报文类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Host_CommType', '0', 'natp', 'afa发送主机的通讯类型', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Host_CfgFileName', '0', 'afe_cbps_comm.conf', 'afa发送主机的配置文件名', 'Y', 'Y');</Sql>
+                                            <Sql>delete from afa_asst_initmsgmap where productcode='PUBLIC' and msgtype='PUBLIC'; insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_PwdCheck', '0', '08', '业锟斤拷锟借：锟斤拷锟斤拷校锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Bank_RetCode_Success_', '0', '000000', '锟斤拷锟斤拷系统锟缴癸拷锟斤拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Fail', '0', '0', '锟斤拷锟斤拷状态锟斤拷锟斤拷锟斤拷失锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Ing', '0', '3', '锟斤拷锟斤拷状态锟斤拷锟斤拷锟斤拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Init', '0', '4', '锟斤拷锟斤拷状态锟斤拷锟斤拷始', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Succ', '0', '1', '锟斤拷锟斤拷状态锟斤拷锟斤拷锟斤拷晒锟�', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStatus_Timeout', '0', '2', '锟斤拷锟斤拷状态锟斤拷锟斤拷锟斤拷时', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_BeiChong', '0', '2', '锟斤拷水锟斤拷锟酵ｏ拷锟斤拷锟斤拷锟斤拷水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_ChongZheng', '0', '1', '锟斤拷水锟斤拷锟酵ｏ拷锟斤拷锟斤拷锟斤拷水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_Finance', '0', '0', '锟斤拷水锟斤拷锟酵ｏ拷锟斤拷锟斤拷锟斤拷水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Flowtype_None_Finance', '0', '3', '锟斤拷水锟斤拷锟酵ｏ拷锟斤拷锟斤拷锟斤拷锟斤拷水', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_MBFLAG_Recv_', '0', '2', '锟斤拷锟绞憋拷识', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_MBFLAG_Send_', '0', '1', '锟斤拷锟绞憋拷识', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_PayFlag_Credit_', '0', '1', '锟斤拷锟斤拷锟绞�,锟斤拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_PayFlag_Debit_', '0', '2', '锟斤拷锟斤拷锟绞�,锟斤拷锟�', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_Plat_RetCode_Success_', '0', '000000', '系统锟节诧拷锟缴癸拷锟斤拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'dealcode', '0', '000000', '平台锟斤拷锟斤拷晒锟斤拷锟斤拷锟斤拷锟�', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'dealmsg', '0', '锟斤拷锟阶达拷锟斤拷晒锟�', '平台锟斤拷锟斤拷晒锟斤拷锟较�', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'status', '0', 'S', '平台锟斤拷锟斤拷状态', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'tradestatus', '0', '1', '锟斤拷锟斤拷状态锟斤拷锟斤拷锟阶成癸拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'tradestep', '0', '1', '锟斤拷锟斤拷锟斤拷锟秸达拷锟斤拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'applydate', '0', 'workdate', '锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'productcode', '0', '__MC__', '锟斤拷品锟斤拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'templatecode', '0', '__MC__', '模锟斤拷锟斤拷锟�', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'transcode', '0', '__TC__', '锟斤拷锟阶达拷锟斤拷', 'Y', 'N'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_QueryAccDtl', '0', '64', '业锟斤拷锟借：锟斤拷询锟剿伙拷锟斤拷锟斤拷锟斤拷细', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_NbpayNotice', '0', '16', '业锟斤拷锟借：锟戒单', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_AccCheck', '0', '36', '业锟斤拷锟借：锟剿猴拷校锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Accept', '0', '60', '业锟斤拷锟借：锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_Authorized', '0', '03', '业锟斤拷锟借：锟斤拷锟斤拷权', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_BillCheck', '0', '36', '业锟斤拷锟借：票锟斤拷校锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '2', '0', '_BusiStep_BusiCancel', '0', '33', '业锟斤拷锟借：锟斤拷锟解撤锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_BusiRefuse', '0', '32', '业锟斤拷锟借：锟杰撅拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_BusiRush', '0', '34', '业锟斤拷锟借：锟窖筹拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '2', '0', '_BusiStep_BusiTransfor', '0', '05', '业锟斤拷锟借：锟斤拷转锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '2', '0', '_BusiStep_BusiWait', '0', '71', '业锟斤拷锟借：锟斤拷锟脚讹拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_Confirm', '0', '02', '业锟斤拷锟借：锟窖革拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_DeductCust', '0', '11', '业锟斤拷锟借：锟斤拷锟侥匡拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_DeductCustFee', '0', '40', '业锟斤拷锟借：锟斤拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_DepositCust', '0', '12', '业锟斤拷锟借：锟斤拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ExcpAction', '0', '99', '业锟斤拷锟借：锟皆讹拷锟届常锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_FMSCheck', '0', '10', '业锟斤拷锟借：头锟斤拷校锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Flush', '0', '15', '业锟斤拷锟借：锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_FreezeAmt', '0', '18', '业锟斤拷锟借：圈锟斤拷锟绞斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_HandleReady', '0', '53', '业锟斤拷锟借：锟窖达拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_HeYa', '0', '51', '业锟斤拷锟借：锟斤拷押', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Input', '0', '00', '业锟斤拷锟借：锟斤拷录锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayCancel', '0', '27', '业锟斤拷锟借：锟戒单锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayDeduct', '0', '20', '业锟斤拷锟借：锟戒单锟桔匡拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayDeposit', '0', '21', '业锟斤拷锟借：锟戒单锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', '_BusiStep_NbpayHang', '0', '22', '业锟斤拷锟借：锟戒单锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_NettingNotice', '0', '30', '业锟斤拷锟借：锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_QueryAccAmt', '0', '61', '业锟斤拷锟借：锟斤拷询锟剿伙拷锟斤拷锟�', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_RefusePay', '0', '51', '业锟斤拷锟借：锟窖拒革拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_RespMBFE', '0', '09', '业锟斤拷锟借：锟斤拷执', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ReturnCredit', '0', '26', '业锟斤拷锟借：锟斤拷锟斤拷锟剿伙拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ReturnDebit', '0', '25', '业锟斤拷锟借：锟斤拷锟斤拷锟狡�', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_SendMBFE', '0', '04', '业锟斤拷锟借：锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Settlement', '0', '31', '业锟斤拷锟借：锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Succeed', '0', '50', '业锟斤拷锟借：锟窖成癸拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Suspend', '0', '13', '业锟斤拷锟借：锟皆讹拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_UnfreezeAmt', '0', '19', '业锟斤拷锟借：锟斤拷圈锟斤拷锟绞斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_WaitAttest', '0', '06', '业锟斤拷锟借：锟斤拷锟斤拷证', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_WaitForHandle', '0', '07', '业锟斤拷锟借：锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'sectionID', '0', '000001_AFEImitHost', 'AFE模锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟�', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToAfe_CfgFileName', '0', 'afe_comm.conf', 'AFA锟斤拷锟斤拷AFE通锟斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToAfe_FtpType', '0', 'FTP', 'AFE锟斤拷AFA之锟斤拷锟侥硷拷锟斤拷锟斤拷协锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToBank_FtpType', '0', 'FTPS', 'AFA锟斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷锟斤拷协锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfaToEsb_CfgFileName', '0', 'esb_comm.conf', 'AFA锟斤拷锟斤拷ESB通锟斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'DataBaseType', '0', 'ORA', '锟斤拷品使锟矫碉拷锟斤拷锟捷匡拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfeToAfa_CommType', '0', 'NATP', 'AFE锟斤拷AFA之锟斤拷通锟斤拷模式', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'AfeToAfa_PackType', '0', 'NATP', 'AFE锟斤拷AFA之锟斤拷通锟脚憋拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'EsbToAfa_CommType', '0', 'NATP', 'ESB锟斤拷AFA之锟斤拷通锟斤拷模式', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'EsbToAfa_PackType', '0', 'NATP', 'ESB锟斤拷AFA之锟斤拷通锟脚憋拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'EtellerToAfa_PackType', '0', 'NATP', 'ETELLER锟斤拷AFA之锟斤拷通锟脚憋拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfAFA_', '0', '000', '锟斤拷锟斤拷锟斤拷锟斤拷:支锟斤拷平台AFA', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfBankCreditHost_', '0', '012', '锟斤拷锟斤拷锟斤拷锟斤拷:锟斤拷锟斤拷锟斤拷锟矫匡拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfBankDebitHost_', '0', '011', '锟斤拷锟斤拷锟斤拷锟斤拷:锟斤拷锟叫斤拷强锟斤拷锟斤拷锟�', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfEnterpriseEbank_', '0', '015', '锟斤拷锟斤拷锟斤拷锟斤拷:锟斤拷业锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOfPersonEbank_', '0', '014', '锟斤拷锟斤拷锟斤拷锟斤拷:锟斤拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_ChnlCodeOf_Teller', '0', '013', '锟斤拷锟斤拷锟斤拷锟斤拷:锟斤拷锟叫癸拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_HasDot_Flag_', '0', '1', '平台锟角凤拷锟斤拷锟叫★拷锟斤拷悖�0-锟斤拷锟斤拷小锟斤拷锟斤拷;1-锟斤拷小锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_PrecisionOfAmout_', '2', '2', '锟斤拷锟叫★拷锟斤拷憔拷锟�;平台锟斤拷畈伙拷锟叫★拷锟斤拷锟绞�,锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷效', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'banksystype', '0', '0', '锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'tradebusistep', '0', '00', '锟斤拷前业锟斤拷锟借：锟斤拷录锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_CorpBook', '0', '18', '锟剿猴拷锟斤拷锟酵ｏ拷锟皆癸拷(锟斤拷锟斤拷)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_DebitCard', '0', '19', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷强锟�(锟斤拷私)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_BankBook', '0', '20', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷私锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AcctType_CreditCard', '0', '21', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷锟角匡拷(锟斤拷锟矫匡拷)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', 'LenOfBankBrno', '2', '4', '锟斤拷锟斤拷锟斤拷锟斤拷懦锟斤拷锟�(int)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_ChkAccNo', '0', '74', '业锟斤拷锟借：锟剿伙拷校锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_BankBook', '0', '000', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pub_BankBook', '0', '010', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷锟斤拷(锟皆癸拷)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pri_BankBook', '0', '020', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷锟斤拷(锟斤拷私)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_CreditCard', '0', '100', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷锟角匡拷(锟斤拷锟矫匡拷)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_DebitCard', '0', '200', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷强锟�', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pub_DebitCard', '0', '210', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷强锟�(锟皆癸拷)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Pri_DebitCard', '0', '220', '锟剿猴拷锟斤拷锟酵ｏ拷锟斤拷强锟�(锟斤拷私)', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Inner_Subject', '0', '300', '锟剿猴拷锟斤拷锟斤拷:锟节诧拷锟斤拷目', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Inner_AccNo', '0', '400', '锟剿猴拷锟斤拷锟斤拷:锟节诧拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_AccType_Cust_AccNo', '0', '500', '锟剿猴拷锟斤拷锟斤拷:锟酵伙拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_EventType_OneAcc_', '0', '1', '锟铰硷拷锟斤拷锟酵ｏ拷锟斤拷锟绞斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_EventType_OneInfo_', '0', '2', '锟铰硷拷锟斤拷锟酵ｏ拷锟斤拷锟斤拷锟斤拷息', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_EventType_More_', '0', '3', '锟铰硷拷锟斤拷锟酵ｏ拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_SignContract', '0', '72', '业锟斤拷锟借：签约', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_CancelContract', '0', '73', '业锟斤拷锟借：锟斤拷约', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'logname', '0', '__LOG__', '锟斤拷志锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '1', 'serverip', '0', '__ASYNIP__', '锟斤拷锟斤拷锟絀P', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_Receipt', '0', '75', '业锟斤拷锟借：锟窖伙拷执', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', 'N', '0', '_BusiStep_QueryCustomInfo', '0', '76', '业锟斤拷锟借：锟酵伙拷锟斤拷息锟斤拷询', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Third_PackType', '0', 'NATP', 'afa锟斤拷锟酵碉拷锟斤拷锟斤拷锟侥憋拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Third_CommType', '0', 'natp', 'afa锟斤拷锟酵碉拷锟斤拷锟斤拷锟斤拷通讯锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Third_CfgFileName', '0', 'afe_cbps_third_comm.conf', 'afa锟斤拷锟酵碉拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Host_PackType', '0', 'NATP', 'afa锟斤拷锟斤拷锟斤拷锟斤拷锟侥憋拷锟斤拷锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Host_CommType', '0', 'natp', 'afa锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷通讯锟斤拷锟斤拷', 'Y', 'Y'); insert into afa_asst_initmsgmap (PRODUCTCODE, MSGTYPE, MBFLAG, INITFLAG, INITKEY, VALUETYPE, INITVALUE, INITKEYDES, INITENFORCE, ISCUSTOMIZATION) values ('PUBLIC', 'PUBLIC', '1', '0', 'Afa2Host_CfgFileName', '0', 'afe_cbps_comm.conf', 'afa锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷', 'Y', 'Y');</Sql>
                              
                                             <Type>11</Type>
                              
@@ -384,7 +389,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>根据数据库配置,初始化参数信息;mbflag[往来标识]默认为"1-往账";</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟捷匡拷锟斤拷锟斤拷,锟斤拷始锟斤拷锟斤拷锟斤拷锟斤拷息;mbflag[锟斤拷锟斤拷锟斤拷识]默锟斤拷为"1-锟斤拷锟斤拷";</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -508,7 +513,7 @@
                              
                                             <Id>5</Id>
                              
-                                            <Desp>获取系统IP@获取系统IP</Desp>
+                                            <Desp>锟斤拷取系统IP@锟斤拷取系统IP</Desp>
                              
                                             <Sql/>
                              
@@ -520,7 +525,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>根据网卡名称，获取该网卡对应的ip，默认网卡名称为“eth0”</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟狡ｏ拷锟斤拷取锟斤拷锟斤拷锟斤拷锟斤拷应锟斤拷ip锟斤拷默锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷为锟斤拷eth0锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -634,7 +639,7 @@
                              
                                             <Id>6</Id>
                              
-                                            <Desp>获取交易日志路径@获取交易日志路径</Desp>
+                                            <Desp>锟斤拷取锟斤拷锟斤拷锟斤拷志路锟斤拷@锟斤拷取锟斤拷锟斤拷锟斤拷志路锟斤拷</Desp>
                              
                                             <Sql/>
                              
@@ -752,7 +757,7 @@
                              
                                             <Id>11</Id>
                              
-                                            <Desp>取全局错误到容器（内建）@取全局错误到容器（内建）</Desp>
+                                            <Desp>取全锟街达拷锟斤拷锟斤拷锟斤拷锟斤拷锟节斤拷锟斤拷@取全锟街达拷锟斤拷锟斤拷锟斤拷锟斤拷锟节斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -858,7 +863,7 @@
                              
                                             <Id>7</Id>
                              
-                                            <Desp>超时交易友好拒绝@超时交易友好拒绝</Desp>
+                                            <Desp>锟斤拷时锟斤拷锟斤拷锟窖好拒撅拷@锟斤拷时锟斤拷锟斤拷锟窖好拒撅拷</Desp>
                              
                                             <Sql/>
                              
@@ -870,7 +875,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>获取当前交易超时次数，并返回渠道友好拒绝信息</ToolTip>
+                                            <ToolTip>锟斤拷取锟斤拷前锟斤拷锟阶筹拷时锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟窖好拒撅拷锟斤拷息</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -988,7 +993,7 @@
                              
                                             <Id>8</Id>
                              
-                                            <Desp>创建信息的数据对象@创建信息数据字典</Desp>
+                                            <Desp>锟斤拷锟斤拷锟斤拷息锟斤拷锟斤拷锟捷讹拷锟斤拷@锟斤拷锟斤拷锟斤拷息锟斤拷锟斤拷锟街碉拷</Desp>
                              
                                             <Sql/>
                              
@@ -1000,7 +1005,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>按照数据对象的描述list创建数据对象,数据对象描述list的格式为[["名称",类型(list/dict/tuple)], ...]</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟捷讹拷锟斤拷锟斤拷锟斤拷锟絣ist锟斤拷锟斤拷锟斤拷锟捷讹拷锟斤拷,锟斤拷锟捷讹拷锟斤拷锟斤拷锟斤拷list锟侥革拷式为[["锟斤拷锟斤拷",锟斤拷锟斤拷(list/dict/tuple)], ...]</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -1112,7 +1117,7 @@
                              
                                             <Id>9</Id>
                              
-                                            <Desp>字典变量赋值@查询sqlkey条件赋值</Desp>
+                                            <Desp>锟街碉拷锟斤拷锟斤拷锟街礍锟斤拷询sqlkey锟斤拷锟斤拷锟斤拷值</Desp>
                              
                                             <Sql/>
                              
@@ -1124,7 +1129,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>字典变量赋值</ToolTip>
+                                            <ToolTip>锟街碉拷锟斤拷锟斤拷锟街�</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -1236,7 +1241,7 @@
                              
                                             <Id>10</Id>
                              
-                                            <Desp>正常结束@正常结束</Desp>
+                                            <Desp>锟斤拷锟斤拷锟斤拷锟斤拷@锟斤拷锟斤拷锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -1248,7 +1253,7 @@
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>正常结束组件,内部控制</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -1306,7 +1311,7 @@
                              
                                             <Id>12</Id>
                              
-                                            <Desp>异常结束@异常结束</Desp>
+                                            <Desp>锟届常锟斤拷锟斤拷@锟届常锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -1318,7 +1323,7 @@
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>异常结束组件,内部控制</ToolTip>
+                                            <ToolTip>锟届常锟斤拷锟斤拷锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -1595,13 +1600,13 @@
                  
                                 <Id>11</Id>
                  
-                                <Desp>组单笔发送报文</Desp>
+                                <Desp>锟介单锟绞凤拷锟酵憋拷锟斤拷</Desp>
                  
                                 <Level>2</Level>
                  
                                 <Auth/>
                  
-                                <RefImpl>组单笔发送报文</RefImpl>
+                                <RefImpl>锟介单锟绞凤拷锟酵憋拷锟斤拷</RefImpl>
                  
                                 <True>12</True>
                  
@@ -1627,9 +1632,9 @@
                      
                                     <Level>PLATFORM</Level>
                      
-                                    <Group>STEP模板/07、交易发送处理</Group>
+                                    <Group>STEP模锟斤拷/07锟斤拷锟斤拷锟阶凤拷锟酵达拷锟斤拷</Group>
                      
-                                    <Name>组单笔发送报文.rul</Name>
+                                    <Name>锟介单锟绞凤拷锟酵憋拷锟斤拷.rul</Name>
                      
                                     <isModified>false</isModified>
                 
@@ -1649,7 +1654,7 @@
                              
                                             <Id>1</Id>
                              
-                                            <Desp>开始@开始</Desp>
+                                            <Desp>锟斤拷始@锟斤拷始</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -1661,7 +1666,7 @@
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>开始组件,内部控制</ToolTip>
+                                            <ToolTip>锟斤拷始锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>null</Visible>
                              
@@ -1721,7 +1726,7 @@
                              
                                             <Id>2</Id>
                              
-                                            <Desp>默认逻辑错误委托@默认逻辑错误委托</Desp>
+                                            <Desp>默锟斤拷锟竭硷拷锟斤拷锟斤拷委锟斤拷@默锟斤拷锟竭硷拷锟斤拷锟斤拷委锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -1733,7 +1738,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>错误委托</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷委锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -1803,7 +1808,7 @@
                              
                                             <Id>3</Id>
                              
-                                            <Desp>字典变量赋值@字典变量赋值</Desp>
+                                            <Desp>锟街碉拷锟斤拷锟斤拷锟街礍锟街碉拷锟斤拷锟斤拷锟街�</Desp>
                              
                                             <Sql/>
                              
@@ -1815,7 +1820,7 @@
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>字典变量赋值</ToolTip>
+                                            <ToolTip>锟街碉拷锟斤拷锟斤拷锟街�</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -1927,7 +1932,7 @@
                              
                                             <Id>10</Id>
                              
-                                            <Desp>取全局错误到容器（内建）@取全局错误到容器</Desp>
+                                            <Desp>取全锟街达拷锟斤拷锟斤拷锟斤拷锟斤拷锟节斤拷锟斤拷@取全锟街达拷锟斤拷锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -2033,12 +2038,12 @@
                              
                                             <Id>4</Id>
                              
-                                            <Desp>SQL组执行组件@查询单位编号</Desp>
+                                            <Desp>SQL锟斤拷执锟斤拷锟斤拷锟紷锟斤拷询锟斤拷位锟斤拷锟�</Desp>
                              
                                             <Sql>DELETE FROM AFA_ASST_FDATAPROCMAPSQL WHERE TEMPLATECODE = 'CHCP' and TRANSCODE = 'C0001' and BUSITYPE = '0' and BUSIOPER = 'ALT_STATUSFLOW';
 
-INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) VALUES ('CHCP', 'C0001', '0', 'ALT_STATUSFLOW', '1', 'upd_businessevent', '更新平台事件表');
-INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) VALUES ('CHCP', 'C0001', '0', 'ALT_STATUSFLOW', '2', 'upd_statusflow', '更新业务状态流转信息表');</Sql>
+INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) VALUES ('CHCP', 'C0001', '0', 'ALT_STATUSFLOW', '1', 'upd_businessevent', '锟斤拷锟斤拷平台锟铰硷拷锟斤拷');
+INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) VALUES ('CHCP', 'C0001', '0', 'ALT_STATUSFLOW', '2', 'upd_statusflow', '锟斤拷锟斤拷业锟斤拷状态锟斤拷转锟斤拷息锟斤拷');</Sql>
                              
                                             <Type>11</Type>
                              
@@ -2048,7 +2053,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>3</Style>
                              
-                                            <ToolTip>一个固定业务的某个业务动作所有涉及的SQL组的执行处理,SQL组是按照交易功能划分， 入参3用例：[[["productcode"],["ASC"]],[int(__REQ__["pageflag"]),int(__REQ__["currpage"]),int(__REQ__["pagenum"])],[[["channelcode", "=", __REQ__["prechannelcode"], "and"],["channelserno", "=", __REQ__["prechannelserno"], "and"],["channeldate", "=", __REQ__["prechanneldate"]]]]]</ToolTip>
+                                            <ToolTip>一锟斤拷锟教讹拷业锟斤拷锟侥筹拷锟揭碉拷锟斤拷锟斤拷锟斤拷锟斤拷婕帮拷锟絊QL锟斤拷锟街达拷写锟斤拷锟�,SQL锟斤拷锟角帮拷锟秸斤拷锟阶癸拷锟杰伙拷锟街ｏ拷 锟斤拷锟�3锟斤拷锟斤拷锟斤拷[[["productcode"],["ASC"]],[int(__REQ__["pageflag"]),int(__REQ__["currpage"]),int(__REQ__["pagenum"])],[[["channelcode", "=", __REQ__["prechannelcode"], "and"],["channelserno", "=", __REQ__["prechannelserno"], "and"],["channeldate", "=", __REQ__["prechanneldate"]]]]]</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -2194,7 +2199,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>11</Id>
                              
-                                            <Desp>字典变量赋值@请求ESB失败设置</Desp>
+                                            <Desp>锟街碉拷锟斤拷锟斤拷锟街礍锟斤拷锟斤拷ESB失锟斤拷锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -2206,7 +2211,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>字典变量赋值</ToolTip>
+                                            <ToolTip>锟街碉拷锟斤拷锟斤拷锟街�</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -2318,7 +2323,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>7</Id>
                              
-                                            <Desp>缴费解约@缴费解约</Desp>
+                                            <Desp>锟缴费斤拷约@锟缴费斤拷约</Desp>
                              
                                             <Sql/>
                              
@@ -2434,7 +2439,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>16</Id>
                              
-                                            <Desp>表达式布尔判断（内建）@查询是否成功</Desp>
+                                            <Desp>锟斤拷锟绞斤拷锟斤拷锟斤拷卸希锟斤拷诮锟斤拷锟紷锟斤拷询锟角凤拷晒锟�</Desp>
                              
                                             <Sql/>
                              
@@ -2524,9 +2529,9 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>13</Id>
                              
-                                            <Desp>SQL组执行组件@更新步骤状态为失败</Desp>
+                                            <Desp>SQL锟斤拷执锟斤拷锟斤拷锟紷锟斤拷锟铰诧拷锟斤拷状态为失锟斤拷</Desp>
                              
-                                            <Sql>delete from afa_asst_fdataprocmapsql where templatecode='OP_AGPS_510500' and transcode='S2201' and busioper='ALT_THIRD_FLOWSTATUS'; insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '1', 'upd_statusflow', '更新状态流转表'); insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '2', 'upd_businessevent', '更新平台事件表');</Sql>
+                                            <Sql>delete from afa_asst_fdataprocmapsql where templatecode='OP_AGPS_510500' and transcode='S2201' and busioper='ALT_THIRD_FLOWSTATUS'; insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '1', 'upd_statusflow', '锟斤拷锟斤拷状态锟斤拷转锟斤拷'); insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '2', 'upd_businessevent', '锟斤拷锟斤拷平台锟铰硷拷锟斤拷');</Sql>
                              
                                             <Type>11</Type>
                              
@@ -2536,7 +2541,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>3</Style>
                              
-                                            <ToolTip>一个固定业务的某个业务动作所有涉及的SQL组的执行处理,SQL组是按照交易功能划分</ToolTip>
+                                            <ToolTip>一锟斤拷锟教讹拷业锟斤拷锟侥筹拷锟揭碉拷锟斤拷锟斤拷锟斤拷锟斤拷婕帮拷锟絊QL锟斤拷锟街达拷写锟斤拷锟�,SQL锟斤拷锟角帮拷锟秸斤拷锟阶癸拷锟杰伙拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -2682,9 +2687,9 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>8</Id>
                              
-                                            <Desp>SQL组执行组件@更新步骤状态为成功</Desp>
+                                            <Desp>SQL锟斤拷执锟斤拷锟斤拷锟紷锟斤拷锟铰诧拷锟斤拷状态为锟缴癸拷</Desp>
                              
-                                            <Sql>delete from afa_asst_fdataprocmapsql where templatecode='OP_AGPS_510500' and transcode='S2201' and busioper='ALT_THIRD_FLOWSTATUS'; insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '1', 'upd_statusflow', '更新状态流转表'); insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '2', 'upd_businessevent', '更新平台事件表');</Sql>
+                                            <Sql>delete from afa_asst_fdataprocmapsql where templatecode='OP_AGPS_510500' and transcode='S2201' and busioper='ALT_THIRD_FLOWSTATUS'; insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '1', 'upd_statusflow', '锟斤拷锟斤拷状态锟斤拷转锟斤拷'); insert into DB2INST1.AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPER, OPERSEQNO, BUSIDATAKEY, REMARK) values ('OP_AGPS_510500', 'S2201', '0', 'ALT_THIRD_FLOWSTATUS', '2', 'upd_businessevent', '锟斤拷锟斤拷平台锟铰硷拷锟斤拷');</Sql>
                              
                                             <Type>11</Type>
                              
@@ -2694,7 +2699,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>3</Style>
                              
-                                            <ToolTip>一个固定业务的某个业务动作所有涉及的SQL组的执行处理,SQL组是按照交易功能划分</ToolTip>
+                                            <ToolTip>一锟斤拷锟教讹拷业锟斤拷锟侥筹拷锟揭碉拷锟斤拷锟斤拷锟斤拷锟斤拷婕帮拷锟絊QL锟斤拷锟街达拷写锟斤拷锟�,SQL锟斤拷锟角帮拷锟秸斤拷锟阶癸拷锟杰伙拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -2840,7 +2845,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>14</Id>
                              
-                                            <Desp>错误码映射@错误码映射</Desp>
+                                            <Desp>锟斤拷锟斤拷锟斤拷映锟斤拷@锟斤拷锟斤拷锟斤拷映锟斤拷</Desp>
                              
                                             <Sql/>
                              
@@ -2852,7 +2857,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>根据数据库配置,完成不同渠道间错误码的相互映射转换.sourcedealcode默认值为******</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟捷匡拷锟斤拷锟斤拷,锟斤拷刹锟酵拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷嗷ビ筹拷锟阶拷锟�.sourcedealcode默锟斤拷值为******</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -2990,7 +2995,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>9</Id>
                              
-                                            <Desp>正常结束@正常结束</Desp>
+                                            <Desp>锟斤拷锟斤拷锟斤拷锟斤拷@锟斤拷锟斤拷锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -3002,7 +3007,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>正常结束组件,内部控制</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -3060,7 +3065,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>15</Id>
                              
-                                            <Desp>异常结束@异常结束</Desp>
+                                            <Desp>锟届常锟斤拷锟斤拷@锟届常锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -3072,7 +3077,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>异常结束组件,内部控制</ToolTip>
+                                            <ToolTip>锟届常锟斤拷锟斤拷锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -3403,13 +3408,13 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                  
                                 <Id>12</Id>
                  
-                                <Desp>同步响应渠道</Desp>
+                                <Desp>同锟斤拷锟斤拷应锟斤拷锟斤拷</Desp>
                  
                                 <Level>2</Level>
                  
                                 <Auth/>
                  
-                                <RefImpl>同步响应渠道</RefImpl>
+                                <RefImpl>同锟斤拷锟斤拷应锟斤拷锟斤拷</RefImpl>
                  
                                 <True>0</True>
                  
@@ -3435,9 +3440,9 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                      
                                     <Level>PLATFORM</Level>
                      
-                                    <Group>STEP模板/09、交易结束处理</Group>
+                                    <Group>STEP模锟斤拷/09锟斤拷锟斤拷锟阶斤拷锟斤拷锟斤拷锟斤拷</Group>
                      
-                                    <Name>同步响应渠道.rul</Name>
+                                    <Name>同锟斤拷锟斤拷应锟斤拷锟斤拷.rul</Name>
                      
                                     <isModified>false</isModified>
                 
@@ -3457,7 +3462,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>1</Id>
                              
-                                            <Desp>开始@开始</Desp>
+                                            <Desp>锟斤拷始@锟斤拷始</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -3469,7 +3474,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>开始组件,内部控制</ToolTip>
+                                            <ToolTip>锟斤拷始锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>null</Visible>
                              
@@ -3529,7 +3534,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>2</Id>
                              
-                                            <Desp>默认逻辑错误委托@默认逻辑错误委托</Desp>
+                                            <Desp>默锟斤拷锟竭硷拷锟斤拷锟斤拷委锟斤拷@默锟斤拷锟竭硷拷锟斤拷锟斤拷委锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -3541,7 +3546,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>错误委托</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷委锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -3611,7 +3616,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>3</Id>
                              
-                                            <Desp>表达式布尔判断（内建）@交易初始化是否正常</Desp>
+                                            <Desp>锟斤拷锟绞斤拷锟斤拷锟斤拷卸希锟斤拷诮锟斤拷锟紷锟斤拷锟阶筹拷始锟斤拷锟角凤拷锟斤拷锟斤拷</Desp>
                              
                                             <Sql/>
                              
@@ -3701,7 +3706,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>10</Id>
                              
-                                            <Desp>表达式布尔判断（内建）@交易是否异常</Desp>
+                                            <Desp>锟斤拷锟绞斤拷锟斤拷锟斤拷卸希锟斤拷诮锟斤拷锟紷锟斤拷锟斤拷锟角凤拷锟届常</Desp>
                              
                                             <Sql/>
                              
@@ -3791,7 +3796,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>4</Id>
                              
-                                            <Desp>表达式布尔判断（内建）@交易是否异常</Desp>
+                                            <Desp>锟斤拷锟绞斤拷锟斤拷锟斤拷卸希锟斤拷诮锟斤拷锟紷锟斤拷锟斤拷锟角凤拷锟届常</Desp>
                              
                                             <Sql/>
                              
@@ -3881,7 +3886,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>5</Id>
                              
-                                            <Desp>字典变量赋值@交易状态赋值</Desp>
+                                            <Desp>锟街碉拷锟斤拷锟斤拷锟街礍锟斤拷锟斤拷状态锟斤拷值</Desp>
                              
                                             <Sql/>
                              
@@ -3893,7 +3898,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>字典变量赋值</ToolTip>
+                                            <ToolTip>锟街碉拷锟斤拷锟斤拷锟街�</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -4005,7 +4010,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>6</Id>
                              
-                                            <Desp>字典变量赋值@通讯参数赋值</Desp>
+                                            <Desp>锟街碉拷锟斤拷锟斤拷锟街礍通讯锟斤拷锟斤拷锟斤拷值</Desp>
                              
                                             <Sql/>
                              
@@ -4017,7 +4022,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>字典变量赋值</ToolTip>
+                                            <ToolTip>锟街碉拷锟斤拷锟斤拷锟街�</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -4129,7 +4134,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>7</Id>
                              
-                                            <Desp>接口字典映射@接口字典映射</Desp>
+                                            <Desp>锟接匡拷锟街碉拷映锟斤拷@锟接匡拷锟街碉拷映锟斤拷</Desp>
                              
                                             <Sql/>
                              
@@ -4141,7 +4146,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>2</Style>
                              
-                                            <ToolTip>根据数据库配置映射容器中的变量为平台可用变量</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟捷匡拷锟斤拷锟斤拷映锟斤拷锟斤拷锟斤拷锟叫的憋拷锟斤拷为平台锟斤拷锟矫憋拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -4265,7 +4270,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>11</Id>
                              
-                                            <Desp>取全局错误到容器（内建）@取全局错误到容器</Desp>
+                                            <Desp>取全锟街达拷锟斤拷锟斤拷锟斤拷锟斤拷锟节斤拷锟斤拷@取全锟街达拷锟斤拷锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -4371,7 +4376,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>8</Id>
                              
-                                            <Desp>报文拼包@报文拼包</Desp>
+                                            <Desp>锟斤拷锟斤拷拼锟斤拷@锟斤拷锟斤拷拼锟斤拷</Desp>
                              
                                             <Sql/>
                              
@@ -4383,7 +4388,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>3</Style>
                              
-                                            <ToolTip>根据接口映射表afa_asst_interfacecolmap中配置的信息,对请求容器中的数据完成对应报文的拼包过程.报文类型暂支持XML,NATP两种类型报文;</ToolTip>
+                                            <ToolTip>锟斤拷锟捷接匡拷映锟斤拷锟絘fa_asst_interfacecolmap锟斤拷锟斤拷锟矫碉拷锟斤拷息,锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟叫碉拷锟斤拷锟斤拷锟斤拷啥锟接︼拷锟斤拷牡锟狡达拷锟斤拷锟斤拷锟�.锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷支锟斤拷XML,NATP锟斤拷锟斤拷锟斤拷锟酵憋拷锟斤拷;</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -4503,7 +4508,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>12</Id>
                              
-                                            <Desp>异常结束@异常结束</Desp>
+                                            <Desp>锟届常锟斤拷锟斤拷@锟届常锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -4515,7 +4520,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>异常结束组件,内部控制</ToolTip>
+                                            <ToolTip>锟届常锟斤拷锟斤拷锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              
@@ -4573,7 +4578,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Id>9</Id>
                              
-                                            <Desp>正常结束@正常结束</Desp>
+                                            <Desp>锟斤拷锟斤拷锟斤拷锟斤拷@锟斤拷锟斤拷锟斤拷锟斤拷</Desp>
                              
                                             <Sql>null</Sql>
                              
@@ -4585,7 +4590,7 @@ INSERT INTO AFA_ASST_FDATAPROCMAPSQL (TEMPLATECODE, TRANSCODE, BUSITYPE, BUSIOPE
                              
                                             <Style>0</Style>
                              
-                                            <ToolTip>正常结束组件,内部控制</ToolTip>
+                                            <ToolTip>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟�,锟节诧拷锟斤拷锟斤拷</ToolTip>
                              
                                             <Visible>1</Visible>
                              

@@ -107,11 +107,11 @@ def TD0202_STEP1_NODE3(__REQ__,__RSP__,__SND__,__RCV__):
             ACMP_Builtin_SetGlobalError("E",_Result_[1],_Result_[2]);
             return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
 
-    except Exception,PyExcp:
-        ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
-        AFALoggerError(str(format_exc()));
-        AFALoggerError(str(PyExcp));
-        return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
+    # except Exception,PyExcp:
+    #     ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
+    #     AFALoggerError(str(format_exc()));
+    #     AFALoggerError(str(PyExcp));
+    #     return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
 
 def TD0202_STEP1_NODE4(__REQ__,__RSP__,__SND__,__RCV__):
     try:
@@ -135,11 +135,11 @@ def TD0202_STEP1_NODE4(__REQ__,__RSP__,__SND__,__RCV__):
             ACMP_Builtin_SetGlobalError("E",_Result_[1],_Result_[2]);
             return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
 
-    except Exception,PyExcp:
-        ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
-        AFALoggerError(str(format_exc()));
-        AFALoggerError(str(PyExcp));
-        return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
+    # except Exception,PyExcp:
+    #     ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
+    #     AFALoggerError(str(format_exc()));
+    #     AFALoggerError(str(PyExcp));
+    #     return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
 
 def TD0202_STEP1_NODE5(__REQ__,__RSP__,__SND__,__RCV__):
     try:
@@ -163,11 +163,11 @@ def TD0202_STEP1_NODE5(__REQ__,__RSP__,__SND__,__RCV__):
             ACMP_Builtin_SetGlobalError("E",_Result_[1],_Result_[2]);
             return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
 
-    except Exception,PyExcp:
-        ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
-        AFALoggerError(str(format_exc()));
-        AFALoggerError(str(PyExcp));
-        return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
+    # except Exception,PyExcp:
+    #     ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
+    #     AFALoggerError(str(format_exc()));
+    #     AFALoggerError(str(PyExcp));
+    #     return ACMP_Builtin_GetDefaultExceptNode(TD0202_STEP1_NODE6);
 
 def TD0202_STEP1_NODE6(__REQ__,__RSP__,__SND__,__RCV__):
     AFALoggerInfor("功能 异常结束");
@@ -194,11 +194,11 @@ def TD0202_STEP1_IMPL(__REQ__,__RSP__,__SND__,__RCV__):
             return TD0202_STEP2_IMPL;
         else:
             return TD0202_STEP6_IMPL;
-    except Exception,PyExcp:
-        ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
-        AFALoggerError(str(format_exc()));
-        AFALoggerError(str(PyExcp));
-        return None;
+    # except Exception,PyExcp:
+    #     ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
+    #     AFALoggerError(str(format_exc()));
+    #     AFALoggerError(str(PyExcp));
+    #     return None;
 
 def TD0202_STEP2_NODE1(__REQ__,__RSP__,__SND__,__RCV__):
     try:
