@@ -111,11 +111,11 @@ def TD02011_STEP7_NODE3(__REQ__,__RSP__,__SND__,__RCV__):
             ACMP_Builtin_SetGlobalError("E",_Result_[1],_Result_[2]);
             return ACMP_Builtin_GetDefaultExceptNode(TD02011_STEP7_NODE6);
 
-    except Exception,PyExcp:
-        ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
-        AFALoggerError(str(format_exc()));
-        AFALoggerError(str(PyExcp));
-        return ACMP_Builtin_GetDefaultExceptNode(TD02011_STEP7_NODE6);
+    # except Exception,PyExcp:
+    #     ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
+    #     AFALoggerError(str(format_exc()));
+    #     AFALoggerError(str(PyExcp));
+    #     return ACMP_Builtin_GetDefaultExceptNode(TD02011_STEP7_NODE6);
 
 def TD02011_STEP7_NODE4(__REQ__,__RSP__,__SND__,__RCV__):
     try:
@@ -133,7 +133,8 @@ def TD02011_STEP7_NODE4(__REQ__,__RSP__,__SND__,__RCV__):
 
         AFALoggerInfor("RET="+str(_Result_[0]));
 
-        if(_Result_[0] == 1): 
+        if(_Result_[0] == 1):
+            print(TD02011_STEP7_NODE5)
             return TD02011_STEP7_NODE5;
         else:
             ACMP_Builtin_SetGlobalError("E",_Result_[1],_Result_[2]);
@@ -197,7 +198,8 @@ def TD02011_STEP7_NODE8(__REQ__,__RSP__,__SND__,__RCV__):
 
         AFALoggerInfor("RET="+str(_Result_[0]));
 
-        if(_Result_[0] == 1): 
+        if(_Result_[0] == 1):
+            print(TD02011_STEP7_NODE3)
             return TD02011_STEP7_NODE3;
         else:
             ACMP_Builtin_SetGlobalError("E",_Result_[1],_Result_[2]);

@@ -211,11 +211,11 @@ def TD0211_STEP1_NODE8(__REQ__,__RSP__,__SND__,__RCV__):
             ACMP_Builtin_SetGlobalError("E",_Result_[1],_Result_[2]);
             return ACMP_Builtin_GetDefaultExceptNode(TD0211_STEP1_NODE7);
 
-    except Exception,PyExcp:
-        ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
-        AFALoggerError(str(format_exc()));
-        AFALoggerError(str(PyExcp));
-        return ACMP_Builtin_GetDefaultExceptNode(TD0211_STEP1_NODE7);
+    # except Exception,PyExcp:
+    #     ACMP_Builtin_SetGlobalError("E","ACMP0E001",str(PyExcp));
+    #     AFALoggerError(str(format_exc()));
+    #     AFALoggerError(str(PyExcp));
+    #     return ACMP_Builtin_GetDefaultExceptNode(TD0211_STEP1_NODE7);
 
 def TD0211_STEP1_IMPL(__REQ__,__RSP__,__SND__,__RCV__):
     try:

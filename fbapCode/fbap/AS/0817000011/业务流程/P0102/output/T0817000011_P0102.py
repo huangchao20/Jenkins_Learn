@@ -160,6 +160,7 @@ def TP0102_STEP10_NODE5(__REQ__,__RSP__,__SND__,__RCV__):
         ACMP_Builtin_LoggerVar(4, "A1", None);
         _Arg2_ = None;
         ACMP_Builtin_LoggerVar(4, "A2", None);
+        print("-------------------------------------------")
 
         _Result_ = P_Cmd_P_GetIp(_Arg0_,_Arg1_,_Arg2_);
 
