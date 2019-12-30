@@ -83,5 +83,3 @@ class Check:
     def checkRead(self, filename):
         with open(filename, encoding='utf-8') as fs:
             pass
-        
-        

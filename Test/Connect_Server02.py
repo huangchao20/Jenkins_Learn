@@ -58,7 +58,8 @@ class TheServerHelper():
     def ftp_connectionServer(self):
         try:
             # 创建ftp对象
-            sf = paramiko.Transport(self.serverIP, self.port)
+            sf = paramiko.SSHClient()
+            (self.serverIP, self.port)
             sf.connect(username=self.username, password=self.password)
             sftp = paramiko.SFTPClient.from_transport(sf)
         except:
